@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+
+            <div class="alert" *ngIf="!(micAccess$ | async)">
+                No microphone access! You need to give micphone access. (You may click refresh
+                button to be prompted mic access pop up)
+            </div>
+
+            <h4>
+                {{ state$ | async }}
+            </h4>
+
+            <div>
+                <h1>Wall E</h1>
+            </div>
+            
+            <div class="message-box">
+                {{ message$ | async }}
+            </div>
+            
+            <button class="btn btn-primary" (click)="activate()">Activate</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
