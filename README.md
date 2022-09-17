@@ -1,5 +1,5 @@
 # Example
-[link](https://walle.pages.dev)
+[Demo link](https://walle.pages.dev)
 
 # Walle
 
